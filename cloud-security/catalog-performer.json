@@ -1,0 +1,678 @@
+{
+  "catalog": {
+    "uuid": "93050658-361a-52d9-b574-83a89f2bdb21",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Performer tier, Cloud security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Performer-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Cloud security\" column only. Only clauses with a Cloud-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.5",
+            "class": "clause",
+            "title": "Governance – B.1.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.5_smt",
+                "name": "statement",
+                "prose": "The Board and/or senior management should have sufficient expertise in cloud security to make appropriate business decisions that take into consideration the implications associated with the specific risks of cloud computing, e.g., cloud concentration risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.9",
+            "class": "clause",
+            "title": "Risk management – B.3.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.9_smt",
+                "name": "statement",
+                "prose": "Where there are major or significant cloud security risks that may not be mitigated, e.g., cloud concentration risks, the trade-offs and appropriate cyber resilience measures shall be reported to and approved by the Board and/or senior management."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.6",
+            "class": "clause",
+            "title": "Asset management – B.8.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.6_smt",
+                "name": "statement",
+                "prose": "The asset discovery tool implemented by the organisation has the capability to track and manage the organisation's cloud-based assets, e.g., virtual machines, containers, storage buckets, databases."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.8",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.8_smt",
+                "name": "statement",
+                "prose": "The organisation’s data management policies and procedures has taken into consideration: – the ability to maintain oversight of where data in the cloud is stored, processed, and backed up to ensure it is in line with organisation’s obligations; and – The ability to manage migration of data securely between cloud environments for interoperability and portability."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.10",
+        "class": "domain",
+        "title": "Backups",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.10"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.10.6",
+            "class": "clause",
+            "title": "Backups – B.10.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.6_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented the appropriate backup and recovery policies and procedures based on the cloud shared responsibility model with its CSP. In situations where the CSP is responsible, the organisation has reviewed the backup and recovery practices of its CSPs to ensure the implementation is in alignment with its organisational policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.8",
+            "class": "clause",
+            "title": "System security – B.12.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.8_smt",
+                "name": "statement",
+                "prose": "The organisation’s policies and procedures on secure configuration for cloud workloads have incorporated best practices. Examples for IaaS or PaaS users include: – images for containers or virtual machines: ▪ use of images from trusted sources only; ▪ use of automated, centrally managed, versioned and immutable base images for deployment; ▪ verification of image integrity to detect unauthorised modifications, keeping images up-to-date with the most recent security patches; – virtual machine security: ▪ use of configuration management or Infrastructure as Code (IaC) to mitigate configuration drift; ▪ hardening of configuration on virtual machine instances; and – container orchestration security: hardening of orchestration services."
+              }
+            ]
+          },
+          {
+            "id": "b.12.9",
+            "class": "clause",
+            "title": "System security – B.12.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.9_smt",
+                "name": "statement",
+                "prose": "This includes a secure logging policy and procedure for the organisation’s cloud workloads. Examples for IaaS and PaaS users include logging of: – containers or virtual machines for unusual behaviour; and – user interactions."
+              }
+            ]
+          },
+          {
+            "id": "b.12.10",
+            "class": "clause",
+            "title": "System security – B.12.10 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.10"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.10_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented the appropriate patch management policies and procedures based on the cloud shared responsibility model with its CSP. In situations where the CSP is responsible, the organisation has reviewed the patch management practices of its CSPs, to ensure the implementation is in alignment with its organisational policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.14",
+        "class": "domain",
+        "title": "Secure Software Development Life Cycle (SDLC)",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.14"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.14.4",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.4_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented relevant SDLC frameworks for cloud, e.g.: – secure design and architecture; – secure coding – continuous build, integration, and testing; – continuous delivery and deployment; and – runtime defence and monitoring."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.16",
+        "class": "domain",
+        "title": "Cyber threat management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.16"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.16.4",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.4_smt",
+                "name": "statement",
+                "prose": "The organisation has incorporated cloud best practices for its log monitoring policy, process and procedure. Examples include: – verifying that CSPs provide adequate logging capabilities, e.g., access to logs, retention period of logs, to ensure alignment with organisational policies; – prioritising logs for cloud workloads that may be most indicative of security issues, such as logs from the management plane, identity and access management activity, or changes in public-facing resources; – automating log retrieval from CSPs; – normalising cloud logs to a common format across cloud applications to facilitate log analysis; and – normalising event, audit, activity, and other log entries that include user information (such as usernames) to a corporate identity so that events that refer to the same person in different usernames/user accounts in different cloud applications can be correlated."
+              }
+            ]
+          },
+          {
+            "id": "b.16.6",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.6_smt",
+                "name": "statement",
+                "prose": "The organisation's SIEM implementation has the capability to manage logs for the organisation's cloud workloads."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.17",
+        "class": "domain",
+        "title": "Third-party risk and oversight",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.17"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.17.4",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.4_smt",
+                "name": "statement",
+                "prose": "This has included establishing a shared responsibility model with the organisation’s CSPs (and data centre service providers, where relevant), including a review of the following practices: – Notification to the organisation within a specific timeframe if the CSP identifies a vulnerability for which the organisation can apply compensating controls to reduce its severity or likelihood of exploitation; and – Support from the CSP for resolving or mitigating vulnerabilities in the CSP’s services."
+              }
+            ]
+          },
+          {
+            "id": "b.17.5",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.5_smt",
+                "name": "statement",
+                "prose": "This has included an assessment of the minimum cybersecurity requirements to be met by: – its CSPs; and – third-party software and images used by the organisation in the cloud, including open source, based on the risk level of the project."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.6",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.6_smt",
+                "name": "statement",
+                "prose": "The vulnerability assessment policy and procedure have included the organisation's cloud environment. The organisation has verified that the vulnerability assessment policy and procedure is in alignment to the CSP’s support policy for vulnerability assessment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.7",
+            "class": "clause",
+            "title": "Network security – B.20.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.7_smt",
+                "name": "statement",
+                "prose": "To harden its cloud environment, the organisation has incorporated cloud security best practices. Examples include: – using cloud network security groups for granular security policies at the resource level; – using container application-aware network monitoring tools for: ▪ automated determination of container networking surfaces, including both inbound ports and process-port bindings; ▪ detection of traffic flows between containers and other network entities; ▪ detection of network anomalies, e.g., unexpected traffic flows within the organisation’s network, port scanning, or outbound access to potentially dangerous destinations; and ▪ detection of invalid or unexpected malicious processes and data introduced into the environment; and – using solutions such as cloud access security brokers (CASBs), or equivalent, leveraging frameworks such as secure access service edge (SASE) for network security in the cloud."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.6",
+            "class": "clause",
+            "title": "Incident response – B.21.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.6_smt",
+                "name": "statement",
+                "prose": "Examples include: – using alerts from CSPM, SIEM, workload protection and network security monitoring; and – using cloud forensics to analyse the management plane, service and other logs and system forensics for containers and virtual machines."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.6",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.6_smt",
+                "name": "statement",
+                "prose": "The organisation has reviewed its CSPs’ disaster recovery plan for restoring cloud services, including the recovery of the organisation's applications and data in the cloud, to ensure alignment with its own disaster recovery plan."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

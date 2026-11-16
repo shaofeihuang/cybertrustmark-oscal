@@ -1,0 +1,225 @@
+{
+  "catalog": {
+    "uuid": "6942c448-3131-5be0-ae86-70dbc40e1777",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Practitioner tier, Cloud security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Practitioner-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Cloud security\" column only. Only clauses with a Cloud-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.10",
+        "class": "domain",
+        "title": "Backups",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.10"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.10.3",
+            "class": "clause",
+            "title": "Backups – B.10.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.3_smt",
+                "name": "statement",
+                "prose": "In its automated backup process, the organisation has included backups of its cloud services."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.3",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.3_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented the appropriate virus and malware protection based on the cloud shared responsibility model with its CSP. In situations where the CSP is responsible, the organisation has reviewed the virus and malware protection practices of its CSPs, to ensure the implementation is in alignment with its organisational policies."
+              }
+            ]
+          },
+          {
+            "id": "b.13.5",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.5 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.5_smt",
+                "name": "statement",
+                "prose": "The organisation has developed a process for the removal of malware that has been detected in the organisation’s cloud environment, in accordance with applicable contractual agreements with its CSPs and its own organisational policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.19",
+        "class": "domain",
+        "title": "Physical/environmental security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.19"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.19.4",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.4 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.4_smt",
+                "name": "statement",
+                "prose": "The organisation has verified that the physical security measures implemented by its CSPs, e.g., providers' statements on physical security controls, including their data centres, certification(s) of recognised and appropriate standards that cover physical security, are in alignment with its requirements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.3",
+            "class": "clause",
+            "title": "Network security – B.20.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.3_smt",
+                "name": "statement",
+                "prose": "Examples include measures such as: – implementing runtime protection for containers or virtual machines, e.g., network segmentation for containers or virtual machines; and – using container firewalls or virtual firewalls to manage network traffic flow."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

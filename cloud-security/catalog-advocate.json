@@ -1,0 +1,458 @@
+{
+  "catalog": {
+    "uuid": "1b2d8105-3daa-5a38-9d03-76b8d45a2309",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Advocate tier, Cloud security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Advocate-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Cloud security\" column only. Only clauses with a Cloud-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.7",
+            "class": "clause",
+            "title": "Governance – B.1.7 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.7_smt",
+                "name": "statement",
+                "prose": "The cybersecurity committee/forum has implemented measures to stay updated on cloud security practices, e.g., participating in cloud special interest groups."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.4",
+        "class": "domain",
+        "title": "Cyber strategy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.4"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.4.5",
+            "class": "clause",
+            "title": "Cyber strategy – B.4.5 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.4.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.4.5_smt",
+                "name": "statement",
+                "prose": "The cybersecurity strategy has included: – business continuity and cyber resilience strategies which are developed based on the cloud service model(s) between the organisation and its CSPs; and – infrastructure design and decisions."
+              }
+            ]
+          },
+          {
+            "id": "b.4.9",
+            "class": "clause",
+            "title": "Cyber strategy – B.4.9 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.4.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.4.9_smt",
+                "name": "statement",
+                "prose": "The organisation has also factored in the cloud threat landscape, where adversaries are targeting cloud services as more organisations implement cloud-based solutions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.9",
+            "class": "clause",
+            "title": "Asset management – B.8.9 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.9_smt",
+                "name": "statement",
+                "prose": "The organisation’s asset inventory management system has the capability to track and manage cloud assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.10",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.10 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.10"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.10_smt",
+                "name": "statement",
+                "prose": "The organisation has incorporated best practices for cryptography into its policies and processes. Examples include: – secure storage and use of API keys, secrets, passwords, secure shell (SSH) keys, or certificates, e.g., secure procedure for key lifecycle from generation to revocation; and – regular scanning to search for static credentials and keys/secrets stored in cleartexts. The organisation has also considered different approaches for management of encryption keys to balance between maintaining control over the keys and leveraging a fully managed cloud service: – encryption keys managed by the CSP; – customer-managed encryption keys; and – customer-supplied encryption keys (or \"bring your own key\")."
+              }
+            ]
+          },
+          {
+            "id": "b.9.11",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.11_smt",
+                "name": "statement",
+                "prose": "Examples include Data Security Posture Management (DSPM) solutions or equivalents to protect sensitive data and support compliance with data protection regulations within cloud environments."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.11",
+            "class": "clause",
+            "title": "System security – B.12.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.11_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented solutions such as cloud-native tools for cloud configuration management, e.g. cloud security posture management (CSPM) solution, cloud-native application protection platform (CNAPP) or equivalent, to support configuration management of cloud workloads."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.8",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.8 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and processes to maintain visibility of cloud-specific threats, including adversaries targeting the cloud-based environment, e.g., subscribing to threat intelligence which include cloud-based threats, participation in cloud-related special interest groups or equivalent, to receive early warnings and advice regarding new threats and vulnerabilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.11",
+            "class": "clause",
+            "title": "Access control – B.15.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.11_smt",
+                "name": "statement",
+                "prose": "To implement privileged access for the cloud environment, the organisation has implemented measures to scale the management of cloud identities and their entitlements to mitigate the risk of unauthorised access and data breaches, e.g., using identity providers to authenticate users through SSO, use of cloud identity and entitlement management (CIEM) solutions, cloud-based identity and access management (IAM), CNAPP, or equivalent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.16",
+        "class": "domain",
+        "title": "Cyber threat management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.16"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.16.11",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.11_smt",
+                "name": "statement",
+                "prose": "This includes threat hunting in the organisation's cloud environment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.8",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.8 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.8_smt",
+                "name": "statement",
+                "prose": "The penetration test plan has included the organisation's cloud environment. The organisation has verified that the penetration test plan is in alignment to the CSP’s support policy for penetration testing."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

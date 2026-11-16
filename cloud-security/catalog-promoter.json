@@ -1,0 +1,568 @@
+{
+  "catalog": {
+    "uuid": "b631e4e5-3a26-5248-b77c-8b62b7a0c839",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Promoter tier, Cloud security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Promoter-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Cloud security\" column only. Only clauses with a Cloud-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.3",
+            "class": "clause",
+            "title": "Governance – B.1.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.3_smt",
+                "name": "statement",
+                "prose": "As part of these practices, the organisation has established and implemented the cloud shared responsibility model with the CSP, e.g., through its commercial agreement with the CSP to establish clear roles and responsibilities between the organisation and the CSP."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.6",
+            "class": "clause",
+            "title": "Risk management – B.3.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.6_smt",
+                "name": "statement",
+                "prose": "The organisation may use a standard risk register to track cloud services and deployments."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.3",
+            "class": "clause",
+            "title": "Asset management – B.8.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.3_smt",
+                "name": "statement",
+                "prose": "For secure deletion and/or destruction of the organisation’s data that has been stored in the cloud, as cloud services may replicate data across multiple servers and locations, the organisation has reviewed the data deletion/destruction practices practised by its CSPs, (e.g., deletion of customer data through cryptographic erasure) to ensure such practices are in alignment with its organisational policies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.6",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.6_smt",
+                "name": "statement",
+                "prose": "The organisation’s data flow diagram has included data that is processed and stored in the cloud, and the geographic location(s) of data in the cloud."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.14",
+        "class": "domain",
+        "title": "Secure Software Development Life Cycle (SDLC)",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.14"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.14.3",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.3_smt",
+                "name": "statement",
+                "prose": "Examples include: – securing APIs used for accessing and configuring cloud resources and data (e.g., implementing authentication and authorisation), as APIs exposed on public-facing assets in the cloud increase the attack surface and are priority targets for malicious actors; – securing the information being transferred between the API and the applications that interface with it using encryption and/or security protocols; – performing input verification of data being relayed to an API as a safeguard against attacks such as structured query language (SQL) injection, cross-site scripting (XSS), potential execution of remote code; – deploying a web application firewall to block malicious API requests; – implementing rate limiting to restrict the number of API requests within a specified period to prevent brute-force attacks and other malicious behaviour; – enabling logging and monitoring on API traffic to identify anomalies or possible security threats; and – using DevSecOps to automate core security tasks by embedding security checks, scans, and tests into the continuous integration and continuous delivery (CI/CD) workflow to facilitate rapid and secure delivery of code changes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.5",
+            "class": "clause",
+            "title": "Access control – B.15.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.5_smt",
+                "name": "statement",
+                "prose": "In addition to roles for employees, for organisations using IaaS or PaaS, the organisation has also implemented the principle of least privilege for cloud workloads by granting them the minimum permissions necessary to perform their assigned tasks and reviewing the permissions of the workloads to ensure that they do not have excessive permissions."
+              }
+            ]
+          },
+          {
+            "id": "b.15.6",
+            "class": "clause",
+            "title": "Access control – B.15.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.6_smt",
+                "name": "statement",
+                "prose": "Examples of a secure log-on policy and procedure include: – implementing protection of its cloud management plane (e.g. CSP console) access and activity; – implementing measures to enable the organisation to scale the management of users and identities for cloud computing, e.g., identity federation; – implementing authorisation measures that allow more granular control, e.g., use of attribute-based access control (ABAC) or policy-based access control (PBAC) to complement role-based access control (RBAC), where access is granted to all users with a given role, where available and feasible; – eliminating the use of static cloud credentials such as hard-coded API keys where feasible; and – using temporary access tokens instead of permanent/static credentials/permissions for data sharing with external parties."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.17",
+        "class": "domain",
+        "title": "Third-party risk and oversight",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.17"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.17.3",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.3_smt",
+                "name": "statement",
+                "prose": "The service level agreement with the organisation’s CSPs has incorporated key areas related to cloud security. Examples include: – performance metrics of cloud services and resources, e.g., availability; – information security requirements (including shared cloud responsibility model); – change management process, e.g.; software updates; – logging and monitoring practices, e.g., log and data retention period; – incident management and communications procedures, e.g., support hours, maximum first support response time; – attainment of cloud security standards; and – data privacy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.3",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.3_smt",
+                "name": "statement",
+                "prose": "The vulnerability assessment plan has included the organisation's cloud environment."
+              }
+            ]
+          },
+          {
+            "id": "b.18.4",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.4_smt",
+                "name": "statement",
+                "prose": "The vulnerability assessment has included the organisation's cloud environment. Examples include the following: – Images: Building vulnerability assessment agents into images. – Virtual machines: Performing runtime vulnerability assessment/scans by taking snapshots of virtual machines and assessing them offline, without affecting the running workload."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.5",
+            "class": "clause",
+            "title": "Network security – B.20.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.5_smt",
+                "name": "statement",
+                "prose": "For securing the organisation's connection to the cloud or communications between cloud environments, the organisation has implemented secure communication channels with up-to-date and approved protocols, e.g., use of encryption, cloud VPNs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.3",
+            "class": "clause",
+            "title": "Incident response – B.21.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.3_smt",
+                "name": "statement",
+                "prose": "For cloud incident management, other functional groups, such as the cloud development team, may also be involved."
+              }
+            ]
+          },
+          {
+            "id": "b.21.4",
+            "class": "clause",
+            "title": "Incident response – B.21.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.4_smt",
+                "name": "statement",
+                "prose": "The organisation has included cloud-specific scenarios in these cyber exercises."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.4",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.4_smt",
+                "name": "statement",
+                "prose": "In the context of the cloud, this can include using cloud services that span multiple data centres and geographical regions for a single service to increase redundancy and resilience."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
