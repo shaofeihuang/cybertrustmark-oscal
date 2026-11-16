@@ -1,0 +1,540 @@
+{
+  "catalog": {
+    "uuid": "326afac9-3c27-5113-ba0d-74102e019fb0",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Advocate tier, OT security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Advocate-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"OT security\" column only. Only clauses with a OT-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.7",
+            "class": "clause",
+            "title": "Governance – B.1.7 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.7_smt",
+                "name": "statement",
+                "prose": "The cybersecurity committee/forum has implemented measures to stay updated on OT security practices, e.g., participating in OT special interest groups."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.4",
+        "class": "domain",
+        "title": "Cyber strategy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.4"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.4.5",
+            "class": "clause",
+            "title": "Cyber strategy – B.4.5 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.4.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.4.5_smt",
+                "name": "statement",
+                "prose": "The cybersecurity strategy and roadmap has taken into account: – cybersecurity goals for its OT systems, such as focusing on safety, reliability and the physical systems and processes; – the long lifecycle of OT assets; and – the organisation's operational model for OT, e.g., insource, outsource, and/or use of managed security services."
+              }
+            ]
+          },
+          {
+            "id": "b.4.9",
+            "class": "clause",
+            "title": "Cyber strategy – B.4.9 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.4.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.4.9_smt",
+                "name": "statement",
+                "prose": "The organisation has also factored in the OT threat landscape, which is seeing increased adversarial interest in OT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.9",
+            "class": "clause",
+            "title": "Asset management – B.8.9 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.9_smt",
+                "name": "statement",
+                "prose": "The organisation’s asset inventory management system has the capability to track and manage OT assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.11",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.11_smt",
+                "name": "statement",
+                "prose": "In situations where the OT environment uses authorised devices that support insecure protocol(s), the organisation has established and implemented reasonable compensating controls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.11",
+            "class": "clause",
+            "title": "System security – B.12.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.11_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented configuration management tool/solutions that can manage OT configuration information, where feasible."
+              }
+            ]
+          },
+          {
+            "id": "b.12.12",
+            "class": "clause",
+            "title": "System security – B.12.12 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.12"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.12_smt",
+                "name": "statement",
+                "prose": "For specialised OT systems, the organisation has obtained these configuration requirements from its OT vendors and/or service providers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.8",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.8 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and processes to maintain visibility of OT-specific threats, e.g., subscribing to OT-specific threat intelligence, including that tailored for its own or adjacent sectors, participating in OT-specific special interest groups or equivalent, to receive early warnings and advice regarding new threats and vulnerabilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.11",
+            "class": "clause",
+            "title": "Access control – B.15.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.11_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented separate deployments of privileged access solutions to manage privileged access for the OT and IT environment respectively, to mitigate against lateral movement between corporate IT networks and the OT environment, should privileged access credentials be compromised."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.16",
+        "class": "domain",
+        "title": "Cyber threat management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.16"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.16.11",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.11_smt",
+                "name": "statement",
+                "prose": "This includes threat hunting for hidden threats targeting the OT environment, the organisation’s own sector or adjacent sectors."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.8",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.8 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.8_smt",
+                "name": "statement",
+                "prose": "The organisation's test plan for penetration testing for the OT environment has: – implemented measures to ensure that OT functions are not adversely impacted by the testing process as OT systems can be highly sensitive to timing constraints or operate with limited resources; – factored in the use of compensating controls, such as employing a replicated, virtualised, or simulated system to conduct penetration testing where relevant; and – factored in the need to take production OT offline, during scheduled maintenance windows or downtime, before testing can be conducted where relevant."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.11",
+            "class": "clause",
+            "title": "Network security – B.20.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.11_smt",
+                "name": "statement",
+                "prose": "For network intrusion prevention on OT networks, the organisation has established and implemented network intrusion prevention solutions that are purpose-built or tailored for OT: In situations where automated responses associated with network intrusion prevention systems may impact the OT environment, e.g., false positives, the organisation has implemented appropriate mitigation measures such as placing the network intrusion prevention systems at higher levels, e.g., the demilitarised zone (DMZ) interfaces in the OT network."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.10",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.10 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.10"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.10_smt",
+                "name": "statement",
+                "prose": "In situations where there is heavy reliance or intersections between the OT customer and the OT supply chain, e.g. OT vendors, these exercises have included key external stakeholders in the OT supply chain."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
