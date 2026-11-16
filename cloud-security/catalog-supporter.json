@@ -1,0 +1,115 @@
+{
+  "catalog": {
+    "uuid": "3a1a4fcd-f34f-5947-abb8-c0329ec59601",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Supporter tier, Cloud security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Supporter-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Cloud security\" column only. Only clauses with a Cloud-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.1",
+            "class": "clause",
+            "title": "Risk management – B.3.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.1_smt",
+                "name": "statement",
+                "prose": "The organisation has included cloud-specific risks, including: – how storing data in the cloud (which may span multiple jurisdictions) can impact data sovereignty and privacy requirements on the organisation; and – supply chain risks, as cloud services are often built on a series of CSPs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.5",
+        "class": "domain",
+        "title": "Compliance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.5"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.5.1",
+            "class": "clause",
+            "title": "Compliance – B.5.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Cloud security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.1_smt",
+                "name": "statement",
+                "prose": "In identifying the relevant laws, regulations and/or guidelines, the organisation has considered how its cloud deployment, including the storage of data in the cloud, may span different legal and regulatory jurisdictions, and these may have their respective data privacy frameworks, or sector-specific frameworks, e.g., healthcare, financial sector."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
