@@ -1,58 +1,61 @@
-# Singapore Cybersecurity Code of Practice (CCoP) 2026 – OSCAL Catalog
+# CSA Cyber Trust mark (v202504) Classical Cybersecurity Requirements – OSCAL Catalogs
 
-Machine-readable [OSCAL](https://pages.nist.gov/OSCAL/) 1.1.2 catalog for the Cybersecurity Code of Practice for Critical Information Infrastructure (2026), issued by the Cyber Security Agency of Singapore (CSA) under the Cybersecurity Act 2018.
+Machine-readable [OSCAL](https://pages.nist.gov/OSCAL/) 1.1.2 catalogs for the "Classical cybersecurity" requirements of the CSA Cyber Trust mark, issued by the Cyber Security Agency of Singapore (CSA). One catalog is provided per preparedness tier, plus a combined catalog covering all tiers.
 
 > **Unofficial transcription.** This is not published or endorsed by CSA. The official PDF is authoritative; check any clause you rely on against it.
 
-## What's in the catalog
+## What's in the catalogs
 
 | | |
 |---|---|
-| Source | CCoP for CII 2026, Release 1 (effective 29 July 2026) |
-| Scope | Sections 1 (Preliminary, p. 7) to 12 (Securing CII Interconnected Systems, p. 69) |
-| Not included | Annex A (enterprise guidance), the Compliance Timeline and Document History pages (apart from the items listed below), and the diagram under clause 1.2.6 |
+| Source | CSA Cybersecurity Certification: Cyber Trust mark, v202504 (April 2025) |
+| Scope | Annex B – Cybersecurity preparedness domains and descriptions, printed pp. 30–111 (PDF pp. 31–112): domains B.1 (Governance) to B.22 (Business continuity/Disaster recovery) |
+| Column used | "Classical cybersecurity" only |
+| Not included | Annex A (Cyber Essentials mark, which the document only points to externally); the Cloud security, OT security and AI security columns; clauses that only state "Domain is not assessable for this tier" (25 clauses, e.g. B.1.1, B.1.2, B.4.1–B.4.4) |
 | Format | OSCAL 1.1.2 catalog, JSON |
-| Size | 12 section groups, 60 subsection groups, 220 controls |
+
+### Files
+
+| File | Tier | Domains | Controls |
+|---|---|---|---|
+| `catalog-supporter.json` | Supporter | 10 | 13 |
+| `catalog-practitioner.json` | Practitioner | 13 | 25 |
+| `catalog-promoter.json` | Promoter | 19 | 37 |
+| `catalog-performer.json` | Performer | 21 | 56 |
+| `catalog-advocate.json` | Advocate | 22 | 58 |
+| `catalog-all-tiers.json` | All five tiers | 22 | 189 |
+
+The five tier catalogs together contain exactly the controls in `catalog-all-tiers.json`. Tiers are cumulative in the certification scheme, but each tier catalog lists only the clauses introduced at that tier, so assessing a higher tier means combining the catalogs for it and the tiers below.
 
 ### Structure
 
 ```
 catalog
-└── group  ccop-sec-3            Section 3  Governance Requirements
-    └── group  ccop-3.1          Subsection 3.1  Board-Level Accountability
-        │   └── part overview    Preamble (context only, see below)
-        └── control ccop-3.1.2   Clause 3.1.2
-            └── part statement   Clause text
-                └── part item    (a), (b), ... nested (i), (ii) where the Code has them
+└── group  b.1                  Domain B.1  Governance
+    └── control  b.1.7          Clause B.1.7  (tier: Advocate)
+        └── part  statement     Clause text (id b.1.7_smt)
 ```
 
-- **One control per numbered clause.** IDs follow the clause number: `ccop-3.1.2`. Sub-items are addressable, e.g. `ccop-3.2.2_smt.b.iii`. Clause titles are not in the Code, so they are generated as `Clause <n> – <subsection title>`.
-- **Preambles are not requirements.** Section and subsection preambles are `overview` parts. Under clause 1.2.7 they are context only and are not within audit scope. Take requirement text from `statement` parts.
-- **Glossary.** The definitions in clauses 1.2.1 and 10.1.2 are `item` parts inside those controls, with the term as the `label` property.
-- **Illustrations.** The worked examples under 1.5 are `guidance` parts on 1.5.1 and 1.5.2. The illustration in the "Existing CII" definition is a `guidance` part inside that definition item.
-- **Footnotes.** The seven footnotes, with their URLs, are `back-matter` resources. They are linked from the part where each is cited, and the footnote marker is removed from the prose.
-- **Unnumbered clause.** Section 11.1 has no clause number in the Code, so it is a single control (`ccop-11.1`).
-- **Compliance dates.** Controls named in the Code's Compliance Timeline (p. 3) carry a `compliance-date` property in the namespace `https://www.csa.gov.sg/ns/oscal/ccop`. The date is `2027-07-29`, or `2027-12-31` for clauses 3.3.1–3.3.3. It applies to existing CIIOs only. This table was transcribed by hand, so verify it against the PDF.
+- **One group per domain, one control per clause.** Group IDs are the lower-cased domain number (`b.1`) and control IDs the lower-cased clause number (`b.1.7`). Only domains that have at least one clause in the tier appear in a tier catalog.
+- **Titles are generated.** The document gives clauses no titles, so each is built as `<Domain> – <clause> (<Tier>)`, for example `System security – B.12.12 (Advocate)`.
+- **Properties on every control.**
+  - `label` – the clause number, e.g. `B.12.12`.
+  - `preparedness-tier` – `Supporter`, `Practitioner`, `Promoter`, `Performer` or `Advocate`.
+  - `security-context` – always `Classical cybersecurity`.
+
+  The last two use the namespace `https://www.csa.gov.sg/cyber-trust`, so they are not mistaken for OSCAL-registry names. Domain groups carry a `label` property with the domain number.
+- **Flat statements.** Each clause is a single `statement` part. Lists and `NOTE`s that sit inside a clause's Classical cybersecurity cell (for example the examples under B.14.3, or the CIS note under B.12.12) are kept inline in the prose rather than split into sub-parts.
+- **Tier assignment.** The document names the tier only on the first row of each tier within a domain; later rows inherit it. The same rule is applied here.
+- **Metadata.** `version` is `202504`; `last-modified` is the date the catalogs were generated; a `source` link in `metadata` and a `back-matter` resource point to the CSA Cyber Trust page.
 
 ## Quick start
 
 Python 3.8+ and the standard library only:
 
-```bash
-python examples/read_catalog.py summary              # controls per section
-python examples/read_catalog.py show 5.9.2           # print one clause with its items
-python examples/read_catalog.py search "multi-factor"   # regex search over clause text
-python examples/read_catalog.py deadlines            # clauses with compliance dates
-python examples/read_catalog.py recurring            # "at least once every N months" clauses
-python examples/read_catalog.py csv controls.csv     # one row per control for a gap assessment
-```
-
-### Use it from your own code
-
 ```python
 import json
 
-with open("catalog.json", encoding="utf-8") as f:
+with open("catalog-all-tiers.json", encoding="utf-8") as f:
     catalog = json.load(f)["catalog"]
 
 def controls(groups):
@@ -60,37 +63,44 @@ def controls(groups):
         yield from g.get("controls", [])
         yield from controls(g.get("groups", []))
 
+def prop(control, name):
+    return next(p["value"] for p in control["props"] if p["name"] == name)
+
+# Print every Advocate-tier clause
 for c in controls(catalog["groups"]):
-    if c["id"] == "ccop-5.3.1":
+    if prop(c, "preparedness-tier") == "Advocate":
         stmt = next(p for p in c["parts"] if p["name"] == "statement")
-        print(stmt["prose"])
-        for item in stmt["parts"]:
-            label = next(p["value"] for p in item["props"] if p["name"] == "label")
-            print(label, item["prose"])
+        print(prop(c, "label"), stmt["prose"])
 ```
 
-The example script has reusable helpers (`iter_controls`, `get_control`, `full_text`, `prop`) that you can import or copy.
+To count controls per tier:
 
-## Working with the catalog in other tools
+```python
+from collections import Counter
+print(Counter(prop(c, "preparedness-tier") for c in controls(catalog["groups"])))
+```
 
-The file is a standard OSCAL catalog, so it should work with OSCAL tooling, for example as the source of a profile, component definition or assessment plan.
+## Working with the catalogs in other tools
+
+These are standard OSCAL catalogs, so they should work with OSCAL tooling, for example as the source of a profile, component definition or assessment plan. For a profile that selects a given tier, import the matching tier catalog(s) and include controls by ID.
 
 ```bash
 pip install compliance-trestle
-trestle import -f catalog.json -o ccop2026
-trestle validate -f catalog.json
+trestle import -f catalog-all-tiers.json -o cybertrust2025
+trestle validate -f catalog-all-tiers.json
 ```
 
-I validated it with the OSCAL catalog model in `compliance-trestle`. Please also run it through your preferred validator (for example `oscal-cli`) before depending on it.
+The structure was checked for unique IDs and clause counts, but the files have **not** yet been run through an OSCAL schema validator. Please validate them with your preferred tool (for example `oscal-cli` or `compliance-trestle`) before depending on them.
 
 ## Notes and limitations
 
-- The text is extracted from the PDF programmatically. Line-break hyphenation was repaired, and the curly quotes and British spelling of the original are kept.
-- Clause numbers, the (a)/(b)/(i) item structure and prose have been checked against the PDF. I did not independently check every word, so please report any discrepancy.
-- Custom property names (`compliance-date`) use their own namespace, as OSCAL requires for names outside its registry.
+- The text was extracted from the PDF programmatically, using column positions to isolate the Classical cybersecurity column. Page headers that break into the middle of a clause across pages ("Cyber Trust mark") were removed, and line-break hyphenation was repaired. The curly quotes and British spelling of the original are kept.
+- The one footnote in the Classical cybersecurity column (footnote 11 on B.1.3, "Cybersecurity includes cloud security, OT security and AI security if the organisation has included these areas in the scope of certification") is dropped, and its marker removed from the prose. Clause B.1.3 is therefore worded slightly differently from the printed page.
+- Many Classical statements are marked "#" in the Cloud, OT and AI columns, meaning the Classical statement also applies in that context. That cross-reference is not represented here.
+- Clauses were spot-checked against the PDF, but not every word was independently verified. Please report any discrepancy.
 
 ## Source and licence
 
-The regulatory content belongs to CSA and the Government of Singapore. See the official publication on the [CSA website](https://www.csa.gov.sg/legislation/codes-of-practice/) for the authoritative text and its terms of use.
+The regulatory content belongs to CSA and the Government of Singapore. See the official publication on the [CSA Cyber Trust page](https://www.csa.gov.sg/cyber-trust) for the authoritative text and its terms of use.
 
-Licence for the tooling and structure: LICENSE for `examples/`*.
+Licence for the tooling and structure: see `LICENSE`.
