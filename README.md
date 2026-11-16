@@ -1,4 +1,4 @@
-# CSA Cyber Trust mark (v202504) Classical Cybersecurity Requirements – OSCAL Catalogs
+# CSA Cyber Trust mark (2025) Classical Cybersecurity Requirements – OSCAL Catalogs
 
 Machine-readable [OSCAL](https://pages.nist.gov/OSCAL/) 1.1.2 catalogs for the "Classical cybersecurity" requirements of the CSA Cyber Trust mark, issued by the Cyber Security Agency of Singapore (CSA). One catalog is provided per preparedness tier, plus a combined catalog covering all tiers.
 
