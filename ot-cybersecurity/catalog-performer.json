@@ -1,0 +1,803 @@
+{
+  "catalog": {
+    "uuid": "06e098f6-4bdd-544f-8285-0c49f74523d8",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Performer tier, OT security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Performer-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"OT security\" column only. Only clauses with a OT-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.4",
+            "class": "clause",
+            "title": "Governance – B.1.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.4_smt",
+                "name": "statement",
+                "prose": "To ensure OT security has the attention of senior leadership, the organisation has identified member(s) of senior management to oversee and be overall responsible for both IT and OT security."
+              }
+            ]
+          },
+          {
+            "id": "b.1.5",
+            "class": "clause",
+            "title": "Governance – B.1.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.5_smt",
+                "name": "statement",
+                "prose": "The Board and/or senior management should have sufficient expertise in OT security to make appropriate business decisions that take into consideration the implications associated with the specific risks associated with OT, e.g., continued deployment of legacy OT systems that may not adequately support cybersecurity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.2",
+        "class": "domain",
+        "title": "Policies and procedures",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.2"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.2.4",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures for the secure use of its OT environment and integrated these policies and procedures with its IT policies and procedures, whilst taking into consideration the differences between the OT and IT environment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.9",
+            "class": "clause",
+            "title": "Risk management – B.3.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.9_smt",
+                "name": "statement",
+                "prose": "Where there are major or significant OT security risks that may not be mitigated, e.g., continued deployment of legacy OT systems that may not adequately support cybersecurity, the trade-offs and appropriate use of compensation controls shall be reported and approved by the Board and/or senior management."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.6",
+        "class": "domain",
+        "title": "Audit",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.6"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.6.6",
+            "class": "clause",
+            "title": "Audit – B.6.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.6.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.6.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented appropriate compensating controls to mitigate and address the audit findings that arise as a result of limitations in the OT environment, which prevent it from implementing adequate cybersecurity, e.g., constraints in using encryption due to potential time-sensitivity challenges, constraints in updating software to patch vulnerabilities promptly due to potential disruption to OT operations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.7",
+        "class": "domain",
+        "title": "Training and awareness",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.7"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.7.6",
+            "class": "clause",
+            "title": "Training and awareness – B.7.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.7.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.7.6_smt",
+                "name": "statement",
+                "prose": "The organisation has included cross-domain training of IT and OT teams to equip them with the skillsets to prepare for a converged IT/OT environment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.6",
+            "class": "clause",
+            "title": "Asset management – B.8.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.6_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented asset discovery tools that are purpose-built or tailored for OT. – Where automated scanning tools are used, the organisation has considered using passive scanning tools that are not intrusive, as active scanning can have negative impact on OT operations or safety; – Where the OT environment contains isolated systems, components, or systems connected on non-Internet Protocol (IP) networks, to complement asset discovery tools, the organisation has established and implemented manual processes to support asset discovery."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.14",
+        "class": "domain",
+        "title": "Secure Software Development Life Cycle (SDLC)",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.14"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.14.4",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.4_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented relevant SDLC frameworks for OT, e.g.: – security management; – specification of security requirements; – security by design; – secure implementation; – secure requirements testing; – security update management; and – security guidelines."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.7",
+            "class": "clause",
+            "title": "Access control – B.15.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.7_smt",
+                "name": "statement",
+                "prose": "The policy and procedure have outlined the respective limitations and the corresponding compensating controls for OT assets where: – default passwords cannot be changed; – secure passwords or passphrases are not supported; – passwords or passphrases are transmitted in cleartext due to legacy protocols; – passwords are not recommended; or – other limitations or constraints exist."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.16",
+        "class": "domain",
+        "title": "Cyber threat management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.16"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.16.5",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.5_smt",
+                "name": "statement",
+                "prose": "The organisation has assigned roles and responsibilities to monitor and review logs, and investigate and report incidents for both OT and IT as OT and IT security operations converge, and OT and IT teams may be distinct and operate independently."
+              }
+            ]
+          },
+          {
+            "id": "b.16.6",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.6_smt",
+                "name": "statement",
+                "prose": "In situations where active scanning by the SIEM solution is not appropriate or recommended in the OT environment, the organisation has: – implemented passive scanning; or – performed active scans during scheduled maintenance windows or downtime."
+              }
+            ]
+          },
+          {
+            "id": "b.16.7",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.7_smt",
+                "name": "statement",
+                "prose": "Recognising that the OT environment has a deterministic nature and OT activities and traffic tend to be more predictable and repeatable, the organisation has established a baseline of normal network traffic and data flows that factors in normal human and OT process behaviour, to differentiate between normal or transient conditions and anomalies and minimise false positive alerts."
+              }
+            ]
+          },
+          {
+            "id": "b.16.8",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.8_smt",
+                "name": "statement",
+                "prose": "For OT, because the priority is safety and availability, the organisation's policies and procedures have indicated its response priority, e.g., restoring OT operations to normal versus performing investigation and preserving forensic data."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.17",
+        "class": "domain",
+        "title": "Third-party risk and oversight",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.17"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.17.4",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.4_smt",
+                "name": "statement",
+                "prose": "This has included reviewing the practices of the organisation’s third parties for OT in situations where there is heavy reliance on the OT supply chain, e.g., OT vendors: – cybersecurity posture of third parties' products, services and/or systems; and – cybersecurity practices of third parties when supporting the organisation in providing software upgrades and patches, performing integration services, or supporting the operations and maintenance of OT systems."
+              }
+            ]
+          },
+          {
+            "id": "b.17.5",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.5_smt",
+                "name": "statement",
+                "prose": "This has included an assessment of the minimum cybersecurity requirements to be met by its third parties, based on the risk level of the project."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.7",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.7_smt",
+                "name": "statement",
+                "prose": "In situations where vulnerabilities cannot be mitigated promptly (e.g., legacy OT devices or systems where software patches are not available, the organisation has implemented compensating controls to address these vulnerabilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.9",
+            "class": "clause",
+            "title": "Network security – B.20.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.9_smt",
+                "name": "statement",
+                "prose": "For network intrusion detection on OT networks, the organisation has established and implemented network intrusion detection solutions that are purpose-built or tailored for OT, i.e., network intrusion detection that has incorporated attack signatures for common various OT protocols, such as Modbus TCP, Distributed Network Protocol 3 (DNP3), and Inter-Control Center Communications Protocol (ICCP). When network intrusion detection solutions are not available for non-IP based protocols or controller-based operating systems in the OT environment, the organisation has considered compensating controls (e.g., anomaly detection systems)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.6",
+            "class": "clause",
+            "title": "Incident response – B.21.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.6_smt",
+                "name": "statement",
+                "prose": "The organisation has integrated its OT-specific incident response with the organisational incident response plan. The policies and procedures established have included an evaluation of the response actions required and their impact on OT operations, e.g., physical isolation of the compromised system may negatively impact OT operations and may result in disruption of operational performance or safety."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.5",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.5_smt",
+                "name": "statement",
+                "prose": "When prioritising recovery activities, the organisation has factored in its risk assessment and developed an appropriate sequence for start-up activities of OT equipment that have operational dependencies."
+              }
+            ]
+          },
+          {
+            "id": "b.22.6",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.6_smt",
+                "name": "statement",
+                "prose": "The organisation has determined the priority of recovery activities, e.g., recovering systems that support critical utilities before the OT systems. The organisation's business continuity/disaster recovery plan shall be documented in both electronic and paper form, and readily accessible."
+              }
+            ]
+          },
+          {
+            "id": "b.22.8",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.8_smt",
+                "name": "statement",
+                "prose": "In situations where the testing the recovery plan is not feasible due to operational or safety considerations, the organisation has implemented alternative equivalents, such as laboratory testing or offline testing, to confirm the recovery procedures for OT equipment."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

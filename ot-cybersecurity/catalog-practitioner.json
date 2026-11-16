@@ -1,0 +1,225 @@
+{
+  "catalog": {
+    "uuid": "939a982f-71ff-59d6-8c88-2a23ac9d1d84",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Practitioner tier, OT security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Practitioner-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"OT security\" column only. Only clauses with a OT-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.10",
+        "class": "domain",
+        "title": "Backups",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.10"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.10.3",
+            "class": "clause",
+            "title": "Backups – B.10.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.3_smt",
+                "name": "statement",
+                "prose": "In situations where automated backup is not appropriate or recommended, e.g., has a negative impact on OT operations or safety, the organisation has established and implemented regular scheduled backups to be performed manually."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.19",
+        "class": "domain",
+        "title": "Physical/environmental security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.19"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.19.2",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.2_smt",
+                "name": "statement",
+                "prose": "Examples include: – physical access of unauthorised personnel to the OT environment; and – natural disasters or power outages that disrupt the organisation’s cybersecurity practices, rendering its OT environment vulnerable to cybersecurity incidents."
+              }
+            ]
+          },
+          {
+            "id": "b.19.3",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.3_smt",
+                "name": "statement",
+                "prose": "As logical and/or physical segmentation is used to characterise or isolate OT assets based on their risk or criticality levels or security requirements, the organisation has implemented physical controls for isolating OT sub-systems and/or network segments, e.g., use of locked cabinets or rooms to house OT assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.3",
+            "class": "clause",
+            "title": "Network security – B.20.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.3_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented a firewall that is purpose-built for OT or tailored for the OT environment and supports common OT protocols to provide protection of the OT network between logical and/or physical segments, as well as OT networks that face the IT or internet environment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.2",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.2_smt",
+                "name": "statement",
+                "prose": "The organisation has identified critical connectivity and assets required for reduced or constrained operations in the event of a cybersecurity incident. For OT components that are not readily available, the organisation has taken steps to ensure redundancies/ replacements are available."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

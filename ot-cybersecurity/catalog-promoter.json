@@ -1,0 +1,624 @@
+{
+  "catalog": {
+    "uuid": "1d47598b-8367-54f9-8c13-c1b5510b2a1f",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Promoter tier, OT security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Promoter-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"OT security\" column only. Only clauses with a OT-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.2",
+        "class": "domain",
+        "title": "Policies and procedures",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.2"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.2.3",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.3_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented cross-functional or cross-team communications in areas where OT and IT security operations converge, to bridge the gaps, as OT and IT teams in the organisation may be distinct and operate independently."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.6",
+            "class": "clause",
+            "title": "Risk management – B.3.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.6_smt",
+                "name": "statement",
+                "prose": "The risk register shall capture OT security risks that may not be mitigated due to the nature of the OT environment, e.g., insecure and/or outdated protocols, systems that are no longer supported, delays in updates due to maintenance schedules."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.4",
+            "class": "clause",
+            "title": "Asset management – B.8.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.4_smt",
+                "name": "statement",
+                "prose": "For OT, as the priority is on safety and availability, the organisation has established and implemented such classification and handling process to factor in safety and availability, e.g., security levels."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.5",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.5_smt",
+                "name": "statement",
+                "prose": "For OT, as the priority is on safety and availability, the organisation has established and implemented such classification and handling policies and procedures to also factor in safety and availability. Examples of OT data include controller configuration files, Programmable Logic Controller (PLC) program codes and computer-aided drafting/computer-aided manufacturing files."
+              }
+            ]
+          },
+          {
+            "id": "b.9.6",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.6_smt",
+                "name": "statement",
+                "prose": "The organisation's data flow diagram for OT has included the expected operational flow of data in the OT environment, including: – data flow crossing network boundaries, indicating communication channels between logical and/or physical segments; and – instances of data flow through insecure protocols."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.10",
+        "class": "domain",
+        "title": "Backups",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.10"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.10.4",
+            "class": "clause",
+            "title": "Backups – B.10.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.4_smt",
+                "name": "statement",
+                "prose": "For OT, as the priority is on safety and availability, the organisation has considered the use of immutable storage for critical OT data, which may include programs or device configurations, as such storage provides: – additional data integrity through data storage in a read-only format; and – added protection against the installation of new software when used as a read-only drive in a maintenance workstation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.5",
+            "class": "clause",
+            "title": "System security – B.12.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.5_smt",
+                "name": "statement",
+                "prose": "As OT devices may have limited disk space and memory, the organisation has implemented: – adequate local or remote storage to reduce the likelihood of exceeding device capacity and loss of logging capability; or – mechanisms to securely transfer and store logs from the OT devices to alternate storage."
+              }
+            ]
+          },
+          {
+            "id": "b.12.6",
+            "class": "clause",
+            "title": "System security – B.12.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.6_smt",
+                "name": "statement",
+                "prose": "The patch management process has taken into consideration the different availability requirements that OT sub-systems and/or network segments may have, and their corresponding differences in abilities to support patching, and the organisation has tracked the key vulnerabilities that need to be addressed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.6",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.6_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented processes such that codes or applications of unknown origin are not implemented in the OT environment. In situations where new updates are released by authorised vendors, and the organisation does not have redundant or spare equipment or systems to support such testing, the organisation has made arrangements to conduct such testing within the vendor's test environment, or performed testing on its own setup during scheduled maintenance windows or downtime."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.6",
+            "class": "clause",
+            "title": "Access control – B.15.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.6_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented separate authentication mechanisms and/or credentials for employees that have access to both OT and IT (or corporate) networks to mitigate against lateral movement between corporate IT networks and the OT environment in the event that employee credentials are compromised. For OT, as the priority is on safety and availability, the organisation has taken into consideration how any potential delay associated with the secure logon policy and procedures has not impeded access of OT personnel in emergency situations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.3",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.3_smt",
+                "name": "statement",
+                "prose": "The vulnerability assessment plan has included identification and evaluation of the threats and vulnerabilities within each OT sub-system and/or network segment and/or zone."
+              }
+            ]
+          },
+          {
+            "id": "b.18.4",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.4_smt",
+                "name": "statement",
+                "prose": "When conducting vulnerability assessments, where active scanning could interfere with real-time OT operation, the organisation has considered passive scanning and monitoring tools that are not intrusive to OT systems. If active scanning is performed, the organisation has included, in its vulnerability assessment plan, a process for testing to be conducted first, and to perform such scans during scheduled maintenance windows or downtime."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.5",
+            "class": "clause",
+            "title": "Network security – B.20.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.5_smt",
+                "name": "statement",
+                "prose": "In situations where securing OT communications and networks is not appropriate or recommended, e.g., has a negative impact on OT operations or safety, the organisation has implemented compensating controls. Examples include: – where secure network authentication and encryption protocol cannot be implemented, using media access control (MAC) address filtering or other measures; and – where legacy OT devices only support insecure wireless connections, using physical controls such as limiting wireless network coverage range within a secured physical area."
+              }
+            ]
+          },
+          {
+            "id": "b.20.6",
+            "class": "clause",
+            "title": "Network security – B.20.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.6_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented segmentation (which can also include physical segmentation) to: – restrict and control communication and information flow between segments, based on the security requirements, risk and/or criticality; and – protect OT legacy systems that are insecure to provide isolation from threats propagating from other segments and/or the Internet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.3",
+            "class": "clause",
+            "title": "Incident response – B.21.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.3_smt",
+                "name": "statement",
+                "prose": "For OT incident management, other functional groups may also be involved: – IT personnel that are involved in OT operations; – OT personnel; and – security personnel and safety personnel."
+              }
+            ]
+          },
+          {
+            "id": "b.21.4",
+            "class": "clause",
+            "title": "Incident response – B.21.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.4_smt",
+                "name": "statement",
+                "prose": "The organisation has included OT-specific scenarios in these cyber exercises. In situations where there is heavy reliance or intersections between the OT customer and the OT supply chain, e.g. OT vendors, these exercises have included key external stakeholders in the OT supply chain."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

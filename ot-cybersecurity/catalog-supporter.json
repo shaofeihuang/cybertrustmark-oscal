@@ -1,0 +1,184 @@
+{
+  "catalog": {
+    "uuid": "3f6dd680-8673-53d9-a3db-55f9e9dfe426",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Supporter tier, OT security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Supporter-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"OT security\" column only. Only clauses with a OT-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.1",
+            "class": "clause",
+            "title": "Risk management – B.3.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.1_smt",
+                "name": "statement",
+                "prose": "The organisation has included OT-specific risks, including sector-specific risks based on incidents that have impacted its industry."
+              }
+            ]
+          },
+          {
+            "id": "b.3.2",
+            "class": "clause",
+            "title": "Risk management – B.3.2 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.2_smt",
+                "name": "statement",
+                "prose": "In an OT environment, such critical cybersecurity risks can include impact on human safety and potential physical impact on OT system(s). The organisation has put the priority on safety, systems reliability and physical assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.5",
+        "class": "domain",
+        "title": "Compliance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.5"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.5.1",
+            "class": "clause",
+            "title": "Compliance – B.5.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.1_smt",
+                "name": "statement",
+                "prose": "In identifying the relevant laws, regulations and/or guidelines, the organisation has also considered the applicable safety laws, regulations and/or guidelines."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.3",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.3 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "OT security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.3_smt",
+                "name": "statement",
+                "prose": "In situations where encryption has been implemented and this results in latency that has negative impact on OT operations or safety, the organisation has established and implemented reasonable compensating controls."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
