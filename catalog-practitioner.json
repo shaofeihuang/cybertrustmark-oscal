@@ -1,0 +1,902 @@
+{
+  "catalog": {
+    "uuid": "6a8575ca-a0db-593d-904e-1124b4865585",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Practitioner tier, Classical cybersecurity requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Practitioner-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Classical cybersecurity\" column only; cloud, OT and AI security columns are excluded. Clauses stating that the domain is not assessable for the tier are not requirements and are omitted. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.3",
+            "class": "clause",
+            "title": "Risk management – B.3.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.3_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a risk treatment plan with the guidelines and/or requirements to accept, remediate or mitigate the identified cybersecurity risks to ensure that cybersecurity risks are treated."
+              }
+            ]
+          },
+          {
+            "id": "b.3.4",
+            "class": "clause",
+            "title": "Risk management – B.3.4 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.4_smt",
+                "name": "statement",
+                "prose": "The organisation performs regular cybersecurity risk identification at least on an annual basis or whenever there are changes to the environment and tracks them to maintain a record of the cybersecurity risks in the environment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.5",
+        "class": "domain",
+        "title": "Compliance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.5"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.5.2",
+            "class": "clause",
+            "title": "Compliance – B.5.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.2_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented measures to ensure compliance with the applicable cybersecurity-related laws, regulations and/or guidelines, e.g., sector-specific."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.7",
+        "class": "domain",
+        "title": "Training and awareness",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.7"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.7.2",
+            "class": "clause",
+            "title": "Training and awareness – B.7.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.7.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.7.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.1 Assets: People” to ensure that employees are equipped with the security knowledge and awareness to identify and mitigate against cyber threats."
+              }
+            ]
+          },
+          {
+            "id": "b.7.3",
+            "class": "clause",
+            "title": "Training and awareness – B.7.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.7.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.7.3_smt",
+                "name": "statement",
+                "prose": "The organisation takes measures to track the relevant metrics (e.g., attendance) to ensure that employees have completed the cybersecurity awareness and training programmes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.2",
+            "class": "clause",
+            "title": "Asset management – B.8.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under A.2 Assets: Hardware and software to ensure that hardware and software present in the environment are identified and protected against common cyber threats."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.4",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.4 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.4_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.3 Assets: Data” to ensure that business-critical data (including personal data, company secrets, intellectual property, etc) can be identified, located and secured."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.10",
+        "class": "domain",
+        "title": "Backups",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.10"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.10.2",
+            "class": "clause",
+            "title": "Backups – B.10.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.8 Backup: Back up essential data” to ensure that the organisation’s essential data is backed up and stored securely."
+              }
+            ]
+          },
+          {
+            "id": "b.10.3",
+            "class": "clause",
+            "title": "Backups – B.10.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.3_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented automated backup processes to ensure that the backup tasks are carried out without fail and without the need for human intervention."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.2",
+            "class": "clause",
+            "title": "System security – B.12.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.6 Secure/Protect: Secure configuration” and “A.7 Update: Software updates” to ensure that the hardware and software use secure and updated settings."
+              }
+            ]
+          },
+          {
+            "id": "b.12.3",
+            "class": "clause",
+            "title": "System security – B.12.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.3_smt",
+                "name": "statement",
+                "prose": "The organisation has performed monitoring on updates and patches installed to ensure that any impact or adverse effects can be identified and rectified promptly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.2",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.4 Secure/Protect: Virus and malware protection” to ensure that there is security protection against malicious software such as virus."
+              }
+            ]
+          },
+          {
+            "id": "b.13.3",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.3_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented the use of virus and malware protection solution(s) that is/are appropriate and recognised in the industry with features such as real-time malware detection and email protection e.g., DMARC, to ensure that it/they can protect the organisation adequately."
+              }
+            ]
+          },
+          {
+            "id": "b.13.4",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.4 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented web filtering to protect the organisation from malicious websites."
+              }
+            ]
+          },
+          {
+            "id": "b.13.5",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.5 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.5_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and applied the process to isolate and contain the virus and/or malware upon confirmation of attack to ensure minimal spread and damage caused."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.2",
+            "class": "clause",
+            "title": "Access control – B.15.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.5 Secure/Protect: Access control” to ensure that there are cybersecurity measures in place over who has access to the data and assets."
+              }
+            ]
+          },
+          {
+            "id": "b.15.3",
+            "class": "clause",
+            "title": "Access control – B.15.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.3_smt",
+                "name": "statement",
+                "prose": "The organisation performs regular role matrix review at least on an annual basis on the systems to ensure that the roles commensurate with the activities the employee, contractor and/or third party is allowed to perform."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.19",
+        "class": "domain",
+        "title": "Physical/environmental security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.19"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.19.2",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.2_smt",
+                "name": "statement",
+                "prose": "The organisation has identified the physical/environmental risks in its environment and implemented detective measures to be alerted to threats to ensure that they are addressed promptly."
+              }
+            ]
+          },
+          {
+            "id": "b.19.3",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.3_smt",
+                "name": "statement",
+                "prose": "The organisation has taken measures to protect its physical assets against internal and external threats, e.g., using cable locks to prevent theft or tampering."
+              }
+            ]
+          },
+          {
+            "id": "b.19.4",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.4 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.4_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented physical security measures on its perimeters, e.g., fences and gates, to deter unauthorised access to the premises."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.2",
+            "class": "clause",
+            "title": "Network security – B.20.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.2_smt",
+                "name": "statement",
+                "prose": "The organisation has configured and implemented access controls, e.g., whitelisting, blacklisting, on its network to enforce network security policy and ensure that unauthorised users and/or devices are kept out."
+              }
+            ]
+          },
+          {
+            "id": "b.20.3",
+            "class": "clause",
+            "title": "Network security – B.20.3 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.3_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented the use of stateful firewall over a basic packet-filtering firewall to ensure that packets are filtered with more context for greater effectiveness."
+              }
+            ]
+          },
+          {
+            "id": "b.20.4",
+            "class": "clause",
+            "title": "Network security – B.20.4 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.4_smt",
+                "name": "statement",
+                "prose": "The network architecture and devices have been reviewed regularly, at least annually, to ensure they are up-to-date, without obsolete rules and protocols."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.2",
+            "class": "clause",
+            "title": "Incident response – B.21.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.2_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented all the cybersecurity recommendations in the mark of cyber hygiene under “A.9 Respond: Incident response” to ensure it is ready to detect, respond to and recover from cyber incidents."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.2",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.2 (Practitioner)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.2"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.2_smt",
+                "name": "statement",
+                "prose": "The organisation has identified the critical assets requiring high availability and implemented measures to ensure redundancies for them."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

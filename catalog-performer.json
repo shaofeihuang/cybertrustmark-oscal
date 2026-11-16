@@ -1,0 +1,1874 @@
+{
+  "catalog": {
+    "uuid": "f1f596af-a52e-53a2-a395-d29b7e4a93af",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Performer tier, Classical cybersecurity requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Performer-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"Classical cybersecurity\" column only; cloud, OT and AI security columns are excluded. Clauses stating that the domain is not assessable for the tier are not requirements and are omitted. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.4",
+            "class": "clause",
+            "title": "Governance – B.1.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.4_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated the roles and responsibilities to ensure that it is clear who is responsible (e.g. Chief Information Security Officer (CISO)) to oversee the cybersecurity program implementation and manage cybersecurity risks within the organisation."
+              }
+            ]
+          },
+          {
+            "id": "b.1.5",
+            "class": "clause",
+            "title": "Governance – B.1.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.5_smt",
+                "name": "statement",
+                "prose": "The Board and/or senior management have sufficient expertise in cybersecurity and are involved in approving and overseeing the implementation of cybersecurity strategy, policies and procedures, and risk management actions."
+              }
+            ]
+          },
+          {
+            "id": "b.1.6",
+            "class": "clause",
+            "title": "Governance – B.1.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established cybersecurity goals/objectives that are reviewed and approved by the Board and/or senior management at least annually and implemented through policies and procedures."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.2",
+        "class": "domain",
+        "title": "Policies and procedures",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.2"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.2.4",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures that incorporate the relevant requirements, guidance and directions to manage cybersecurity risk and protect information assets in its environment to ensure that employees have clear direction and guidance."
+              }
+            ]
+          },
+          {
+            "id": "b.2.5",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.5_smt",
+                "name": "statement",
+                "prose": "The cybersecurity policies and procedures are approved and formalised by the Board and/or senior management to ensure top-down support."
+              }
+            ]
+          },
+          {
+            "id": "b.2.6",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.6_smt",
+                "name": "statement",
+                "prose": "The cybersecurity policies and procedures are published, communicated and made accessible for employees to ensure that the employees have clear direction and guidance to perform their work securely."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.7",
+            "class": "clause",
+            "title": "Risk management – B.3.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.7_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented risk management policies and procedures with the requirements, guidelines and detailed steps to identify, analyse, evaluate, monitor and treat cybersecurity risks."
+              }
+            ]
+          },
+          {
+            "id": "b.3.8",
+            "class": "clause",
+            "title": "Risk management – B.3.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.8_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated roles and responsibilities for conducting and overseeing cybersecurity risk assessment to ensure that employees are clear on the tasks assigned to them."
+              }
+            ]
+          },
+          {
+            "id": "b.3.9",
+            "class": "clause",
+            "title": "Risk management – B.3.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.9_smt",
+                "name": "statement",
+                "prose": "The organisation has established the cybersecurity risk appetite and cybersecurity risk tolerance statement approved by the Board and/or senior management to ensure that there is organisational consensus on the type and acceptable level of cybersecurity risk."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.5",
+        "class": "domain",
+        "title": "Compliance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.5"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.5.5",
+            "class": "clause",
+            "title": "Compliance – B.5.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.5_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policy and procedures with the necessary measures, requirements and steps to address cybersecurity-related laws, regulations and/or guidelines, (e.g., sector-specific)."
+              }
+            ]
+          },
+          {
+            "id": "b.5.6",
+            "class": "clause",
+            "title": "Compliance – B.5.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.6_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated roles and responsibilities to address the requirements in cybersecurity-related laws, regulatory compliance and/or guidelines (e.g., sector-specific) in the organisation to ensure that employees are clear of their tasks for compliance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.6",
+        "class": "domain",
+        "title": "Audit",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.6"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.6.4",
+            "class": "clause",
+            "title": "Audit – B.6.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.6.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.6.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established, implemented and maintained a cybersecurity audit plan, including at a minimum, the objective, scope, roles and responsibilities, guidelines, and frequency for auditing to assess the effectiveness of the organisation's policies, processes, procedures and controls against cybersecurity risks."
+              }
+            ]
+          },
+          {
+            "id": "b.6.5",
+            "class": "clause",
+            "title": "Audit – B.6.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.6.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.6.5_smt",
+                "name": "statement",
+                "prose": "The organisation has established an internal audit function and/or team to assess the policies, processes, procedures and controls against cybersecurity risks."
+              }
+            ]
+          },
+          {
+            "id": "b.6.6",
+            "class": "clause",
+            "title": "Audit – B.6.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.6.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.6.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies, processes, procedures and controls to mitigate and address the audit findings based on priority and timelines to ensure that the audit findings are remediated promptly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.7",
+        "class": "domain",
+        "title": "Training and awareness",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.7"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.7.6",
+            "class": "clause",
+            "title": "Training and awareness – B.7.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.7.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.7.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures on the training types, frequency and attendees’ requirements as well as the steps to conduct and participate in the training to ensure that they can be adhered to."
+              }
+            ]
+          },
+          {
+            "id": "b.7.7",
+            "class": "clause",
+            "title": "Training and awareness – B.7.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.7.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.7.7_smt",
+                "name": "statement",
+                "prose": "The organisation has its cybersecurity awareness and training programmes endorsed by the Board and/or senior management to ensure that they are in place and up to date."
+              }
+            ]
+          },
+          {
+            "id": "b.7.8",
+            "class": "clause",
+            "title": "Training and awareness – B.7.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.7.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.7.8_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and established policies and processes to identify the cybersecurity skillsets necessary for its employees, including the Board and/or senior management, to manage cybersecurity risks and incidents, and to ensure that they receive the relevant training."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.6",
+            "class": "clause",
+            "title": "Asset management – B.8.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented asset discovery tools that are appropriate and recognised in the industry to scan and discover assets that are connected to its network to ensure that all the assets can be managed securely."
+              }
+            ]
+          },
+          {
+            "id": "b.8.7",
+            "class": "clause",
+            "title": "Asset management – B.8.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.7_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented an acceptable use policy on the rules and restrictions for hardware and software assets to ensure that the assets are being managed appropriately and securely."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.8",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented data management policies and procedures through the guidelines, requirements and steps to handle business-critical data (including personal data, company secrets, intellectual property) at rest, in transit and in use, securely."
+              }
+            ]
+          },
+          {
+            "id": "b.9.9",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.9_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated roles and responsibilities to ensure that it is clear who is responsible to maintain, support and manage the data assets in the inventory list."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.10",
+        "class": "domain",
+        "title": "Backups",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.10"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.10.6",
+            "class": "clause",
+            "title": "Backups – B.10.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented backup and recovery policies and procedures on the requirements, guidelines and detailed steps to ensure that there is consistent guidance and direction for performing backup and recovery in the organisation."
+              }
+            ]
+          },
+          {
+            "id": "b.10.7",
+            "class": "clause",
+            "title": "Backups – B.10.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.10.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.10.7_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated roles and responsibilities to ensure that it is clear who is responsible and accountable to perform and manage backups from creation to destruction."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.11",
+        "class": "domain",
+        "title": "Bring your own device (BYOD)",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.11"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.11.4",
+            "class": "clause",
+            "title": "Bring your own device (BYOD) – B.11.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.11.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.11.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures on the guidelines, requirements and steps on the use of BYOD connecting to the organisation’s network and accessing the organisation’s data to ensure that they conform to the set of security standards, e.g., passcode enabled."
+              }
+            ]
+          },
+          {
+            "id": "b.11.5",
+            "class": "clause",
+            "title": "Bring your own device (BYOD) – B.11.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.11.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.11.5_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented regular review on the use of BYOD accessing business-critical data at least annually to ensure that the devices are compliant and safe."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.7",
+            "class": "clause",
+            "title": "System security – B.12.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.7_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated the roles and responsibilities to oversee, manage and monitor the organisation's system security (i.e., secure configuration, logging, update and patching) to ensure that employees are clear on the tasks assigned to them."
+              }
+            ]
+          },
+          {
+            "id": "b.12.8",
+            "class": "clause",
+            "title": "System security – B.12.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures on the security configuration requirements, guidelines and detailed steps to ensure that they are aligned with the security standards."
+              }
+            ]
+          },
+          {
+            "id": "b.12.9",
+            "class": "clause",
+            "title": "System security – B.12.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.9_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a secure logging policy and procedure with the requirements, guidelines and detailed steps to store, retain and delete the logs from unauthorised access."
+              }
+            ]
+          },
+          {
+            "id": "b.12.10",
+            "class": "clause",
+            "title": "System security – B.12.10 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.10"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.10_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures with the requirements, guidelines and detailed steps to perform and install patches/updates to ensure that the system(s) is/are patched or updated within the defined timeframes according to their priority."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.7",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.7_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated the roles and responsibilities for employees to oversee, manage and maintain the virus and malware protection solution(s) to ensure clarity for the relevant employees of their required tasks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.14",
+        "class": "domain",
+        "title": "Secure Software Development Life Cycle (SDLC)",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.14"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.14.4",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented an SDLC framework with cybersecurity measures and requirements to manage the software development life cycle ensuring that areas such as data integrity, authentication, authorisation, accountability and exception handling can be addressed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.15",
+        "class": "domain",
+        "title": "Access control",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.15"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.15.7",
+            "class": "clause",
+            "title": "Access control – B.15.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.7_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a passphrase policy and procedure outlining the requirements, guidelines and detailed steps on setting and updating passphrases to provide guidance and direction on what constitutes strong passphrases."
+              }
+            ]
+          },
+          {
+            "id": "b.15.8",
+            "class": "clause",
+            "title": "Access control – B.15.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a user access control policy and procedure outlining the requirements, guidelines and detailed steps to restrict and authorise users’ access to its assets."
+              }
+            ]
+          },
+          {
+            "id": "b.15.9",
+            "class": "clause",
+            "title": "Access control – B.15.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.15.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.15.9_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented secure remote access policies and procedures outlining the requirements, guidelines and detailed steps to protect information accessed remotely."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.16",
+        "class": "domain",
+        "title": "Cyber threat management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.16"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.16.4",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a log monitoring policy, process and procedure outlining the requirements, guidelines and detailed steps for monitoring security logs for threats and abnormalities."
+              }
+            ]
+          },
+          {
+            "id": "b.16.5",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.5_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and assigned roles and responsibilities to carry out log monitoring and reviews of its systems, investigate incidents and report to relevant stakeholders."
+              }
+            ]
+          },
+          {
+            "id": "b.16.6",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.6_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented security information and event management (SIEM) to store logs centrally for correlation and to ensure more effective log monitoring."
+              }
+            ]
+          },
+          {
+            "id": "b.16.7",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.7_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a security baseline profile on its systems to analyse and perform monitoring to ensure that anomalies are identified."
+              }
+            ]
+          },
+          {
+            "id": "b.16.8",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures on the requirements, guidelines and detailed steps to be carried out when it detects abnormal or suspicious logs, to ensure that they are investigated, reported and remediated promptly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.17",
+        "class": "domain",
+        "title": "Third-party risk and oversight",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.17"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.17.4",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented measures to ensure that minimum cybersecurity requirements are defined for third parties, and that third parties are informed of their security obligations and to ensure that security is established for systems and data."
+              }
+            ]
+          },
+          {
+            "id": "b.17.5",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.5_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented measures to assess its third parties before engaging them or onboarding them to ensure that they meet all required security obligations based on the risks for the type of services provided."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.5",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.5_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated roles and responsibilities for its employees on carrying out cybersecurity vulnerability assessment and management."
+              }
+            ]
+          },
+          {
+            "id": "b.18.6",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures outlining the requirements, guidelines and detailed steps for conducting cybersecurity vulnerability assessments across its systems to ensure that steps are taken to address the associated risk vulnerabilities identified promptly."
+              }
+            ]
+          },
+          {
+            "id": "b.18.7",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.7_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented measures and processes to track, review, evaluate and address the vulnerabilities uncovered as part of the assessments to ensure that the vulnerabilities are remediated according to their severity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.19",
+        "class": "domain",
+        "title": "Physical/environmental security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.19"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.19.8",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures outlining the requirements, guidelines and detailed steps for escalation and security access controls to minimise the impact and interference to its physical environment."
+              }
+            ]
+          },
+          {
+            "id": "b.19.9",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.9_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and assigned roles and responsibilities for detecting, mitigating and responding against physical/environmental risks to ensure that employees understand their assigned tasks."
+              }
+            ]
+          },
+          {
+            "id": "b.19.10",
+            "class": "clause",
+            "title": "Physical/environmental security – B.19.10 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.19.10"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.19.10_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures outlining the requirements, guidelines and detailed steps to review physical security measures and assets to ensure that they remain secure."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.7",
+            "class": "clause",
+            "title": "Network security – B.20.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.7_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented security policies and procedures outlining the requirements, guidelines and detailed steps to harden the network architecture, device and access security."
+              }
+            ]
+          },
+          {
+            "id": "b.20.8",
+            "class": "clause",
+            "title": "Network security – B.20.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.8_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and assigned roles and responsibilities to oversee, manage and monitor network security to ensure that employees understand their assigned tasks."
+              }
+            ]
+          },
+          {
+            "id": "b.20.9",
+            "class": "clause",
+            "title": "Network security – B.20.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.9_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented network intrusion detection to monitor and detect malicious network traffic to ensure that it can be identified and addressed in a timely manner."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.5",
+            "class": "clause",
+            "title": "Incident response – B.21.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.5_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and applied a process to carry out post-incident reviews of cyber exercises or cybersecurity incidents to identify areas for improvement and ensure that the incident response plan and process can be strengthened."
+              }
+            ]
+          },
+          {
+            "id": "b.21.6",
+            "class": "clause",
+            "title": "Incident response – B.21.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.6_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and established policies and procedures outlining the requirements, guidelines and detailed steps to investigate incidents to gather evidence to ensure that the root cause can be identified."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.22",
+        "class": "domain",
+        "title": "Business continuity/Disaster recovery",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.22"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.22.5",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.5_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented business continuity/disaster recovery policies outlining the requirements, roles and responsibilities and guidelines, including the RTO and RPO, to ensure that business resumption can be carried out according to the system’s criticality."
+              }
+            ]
+          },
+          {
+            "id": "b.22.6",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.6_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a business continuity/disaster recovery plan to respond and recover from common business disruption scenarios, including those caused by cybersecurity incidents, to ensure cyber resilience."
+              }
+            ]
+          },
+          {
+            "id": "b.22.7",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.7 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.7_smt",
+                "name": "statement",
+                "prose": "The organisation performs regular reviews, at least annually, of the business continuity/disaster recovery plan to ensure it is kept up-to-date."
+              }
+            ]
+          },
+          {
+            "id": "b.22.8",
+            "class": "clause",
+            "title": "Business continuity/Disaster recovery – B.22.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.22.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "Classical cybersecurity",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.22.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented a policy and process to test its business continuity/disaster recovery plan regularly, at least annually, to ensure the effectiveness of the plan in achieving its objectives."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
