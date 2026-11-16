@@ -1,6 +1,6 @@
-# CSA Cyber Trust mark (2025) Classical Cybersecurity Requirements – OSCAL Catalogs
+# CSA Cyber Trust Mark (2025) Classical Cybersecurity Requirements – OSCAL Catalogs
 
-Machine-readable [OSCAL](https://pages.nist.gov/OSCAL/) 1.1.2 catalogs for the "Classical cybersecurity" requirements of the CSA Cyber Trust mark, issued by the Cyber Security Agency of Singapore (CSA). One catalog is provided per preparedness tier, plus a combined catalog covering all tiers.
+Machine-readable [OSCAL](https://pages.nist.gov/OSCAL/) 1.1.2 catalogs for the "Classical cybersecurity" requirements of the CSA Cyber Trust Mark, issued by the Cyber Security Agency of Singapore (CSA). One catalog is provided per preparedness tier, plus a combined catalog covering all tiers.
 
 > **Unofficial transcription.** This is not published or endorsed by CSA. The official PDF is authoritative; check any clause you rely on against it.
 
@@ -8,7 +8,7 @@ Machine-readable [OSCAL](https://pages.nist.gov/OSCAL/) 1.1.2 catalogs for the "
 
 | | |
 |---|---|
-| Source | CSA Cybersecurity Certification: Cyber Trust mark, v202504 (April 2025) |
+| Source | CSA Cybersecurity Certification: Cyber Trust Mark, v202504 (April 2025) |
 | Scope | Annex B – Cybersecurity preparedness domains and descriptions, printed pp. 30–111 (PDF pp. 31–112): domains B.1 (Governance) to B.22 (Business continuity/Disaster recovery) |
 | Column used | "Classical cybersecurity" only |
 | Not included | Annex A (Cyber Essentials mark, which the document only points to externally); the Cloud security, OT security and AI security columns; clauses that only state "Domain is not assessable for this tier" (25 clauses, e.g. B.1.1, B.1.2, B.4.1–B.4.4) |
@@ -94,7 +94,7 @@ The structure was checked for unique IDs and clause counts, but the files have *
 
 ## Notes and limitations
 
-- The text was extracted from the PDF programmatically, using column positions to isolate the Classical cybersecurity column. Page headers that break into the middle of a clause across pages ("Cyber Trust mark") were removed, and line-break hyphenation was repaired. The curly quotes and British spelling of the original are kept.
+- The text was extracted from the PDF programmatically, using column positions to isolate the Classical cybersecurity column. Page headers that break into the middle of a clause across pages ("Cyber Trust Mark") were removed, and line-break hyphenation was repaired. The curly quotes and British spelling of the original are kept.
 - The one footnote in the Classical cybersecurity column (footnote 11 on B.1.3, "Cybersecurity includes cloud security, OT security and AI security if the organisation has included these areas in the scope of certification") is dropped, and its marker removed from the prose. Clause B.1.3 is therefore worded slightly differently from the printed page.
 - Many Classical statements are marked "#" in the Cloud, OT and AI columns, meaning the Classical statement also applies in that context. That cross-reference is not represented here.
 - Clauses were spot-checked against the PDF, but not every word was independently verified. Please report any discrepancy.
