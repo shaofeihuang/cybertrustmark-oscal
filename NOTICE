@@ -1,19 +1,22 @@
-ccop-oscal
+cyber-trust-oscal
 =================
 
-This repository publishes OSCAL 1.1.2 conversion artifacts derived from the Cybersecurity Code of Practice (29 July 2026).
+This repository publishes OSCAL 1.1.2 conversion artifacts derived from the CSA Cybersecurity Certification: Cyber Trust Mark (v202504).
 
 Source document
 ---------------
 
-Title:     Cybersecurity Code of Practice (CCoP)
-Publisher: Cybersecurity Agency of Singapore
-Published: 2027-07-29
-URL:       https://isomer-user-content.by.gov.sg/36/8b555ddb-16ab-486c-9fda-e12197a4e320/Cybersecurity%20Code%20of%20Practice%20(2026).pdf
+Title:     CSA Cybersecurity Certification: Cyber Trust Mark
+Version:   v202504
+Publisher: Cyber Security Agency of Singapore
+Published: April 2025
+URL:       https://www.csa.gov.sg/cyber-trust
 
-The source content remains © Cybersecurity Agency of Singapore. The upstream PDF is the authoritative text; the OSCAL rendering in this repository is unofficial.
+Scope of the conversion: Annex B (Cybersecurity preparedness domains and descriptions), covering the Classical cybersecurity, Cloud security, OT security and AI security columns, in the folders classical-cybersecurity, cloud-security, ot-cybersecurity and ai-cybersecurity.
 
-The source PDF itself is NOT redistributed from this repository. The `rlinks` in `catalog.json` point to the canonical URL above.
+The source content remains © Cyber Security Agency of Singapore. The upstream PDF is the authoritative text; the OSCAL rendering in this repository is unofficial and is not published or endorsed by CSA.
+
+The source PDF itself is NOT redistributed from this repository. The `rlinks` in each catalog JSON file point to the canonical URL above.
 
 Conversion
 ----------
@@ -22,4 +25,4 @@ Author:  HUANG Shaofei
 License: Apache License, Version 2.0 (applies to the conversion artifacts
          in this repository and the supporting documentation files)
 
-Any downstream artifact that embeds text derived from the CCoP must retain the copyright notice and clearly identify itself as an unofficial machine-readable rendering.
+Any downstream artifact that embeds text derived from the Cyber Trust mark document must retain the copyright notice and clearly identify itself as an unofficial machine-readable rendering.
