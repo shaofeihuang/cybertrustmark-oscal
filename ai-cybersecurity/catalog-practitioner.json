@@ -1,0 +1,64 @@
+{
+  "catalog": {
+    "uuid": "de14deb7-1a91-5945-a297-f199afecf3ce",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Practitioner tier, AI security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Placeholder: Annex B of the Cyber Trust mark document (v202504) contains no AI-security-specific statements at the Practitioner tier. Every Practitioner row is marked \"#\" in the AI security column (meaning the Classical cybersecurity statement also applies), except B.10.3, whose AI security cell is blank. The single control below is a note added for completeness and is not source text.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "none",
+        "class": "domain",
+        "title": "No AI-specific statements at this tier",
+        "controls": [
+          {
+            "id": "ai-practitioner-none",
+            "class": "note",
+            "title": "Practitioner tier – no AI security-specific statements",
+            "props": [
+              {
+                "name": "preparedness-tier",
+                "value": "Practitioner",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "ai-practitioner-none_smt",
+                "name": "statement",
+                "prose": "Annex B of the Cyber Trust mark document (v202504) defines no AI security-specific statements at the Practitioner tier; the Classical cybersecurity statements apply where the AI security column is marked \"#\"."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
