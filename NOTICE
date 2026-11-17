@@ -22,7 +22,6 @@ Conversion
 ----------
 
 Author:  HUANG Shaofei
-License: Apache License, Version 2.0 (applies to the conversion artifacts
-         in this repository and the supporting documentation files)
+License: Apache License, Version 2.0 (applies to the conversion artifacts in this repository and the supporting documentation files)
 
 Any downstream artifact that embeds text derived from the Cyber Trust mark document must retain the copyright notice and clearly identify itself as an unofficial machine-readable rendering.
