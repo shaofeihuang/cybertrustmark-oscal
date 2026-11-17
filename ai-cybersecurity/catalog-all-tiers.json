@@ -1,0 +1,1264 @@
+{
+  "catalog": {
+    "uuid": "6a851ac4-7145-51da-8ba3-f08c4fb38d54",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – All preparedness tiers, AI security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes Supporter, Practitioner, Promoter, Performer and Advocate tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"AI security\" column only. Only clauses with a AI-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.1",
+        "class": "domain",
+        "title": "Governance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.1"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.1.3",
+            "class": "clause",
+            "title": "Governance – B.1.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.3_smt",
+                "name": "statement",
+                "prose": "Such practices include establishing mechanisms for: – The organisation to provide necessary security information about its AI systems to users and other relevant stakeholders, e.g. acceptable use policy of the AI systems in the organisation; and – Employees and external parties to report AI security concerns of the AI systems in the organisation."
+              }
+            ]
+          },
+          {
+            "id": "b.1.4",
+            "class": "clause",
+            "title": "Governance – B.1.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.4_smt",
+                "name": "statement",
+                "prose": "The organisation has defined and allocated roles and responsibilities for AI security due to the multidisciplinary nature of AI, which can cut across various organisational functions, e.g. functions overseeing ethics, legal matters, and risk areas."
+              }
+            ]
+          },
+          {
+            "id": "b.1.5",
+            "class": "clause",
+            "title": "Governance – B.1.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.5_smt",
+                "name": "statement",
+                "prose": "The Board and/or senior management should have sufficient expertise in AI security to make appropriate business decisions that take into consideration the implications associated with the specific risks of AI, e.g., over-reliance on AI."
+              }
+            ]
+          },
+          {
+            "id": "b.1.6",
+            "class": "clause",
+            "title": "Governance – B.1.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.6_smt",
+                "name": "statement",
+                "prose": "This includes identifying and documenting the objectives to guide the secure use of AI system(s) and ensuring these system(s) are used according to the intended purposes."
+              }
+            ]
+          },
+          {
+            "id": "b.1.7",
+            "class": "clause",
+            "title": "Governance – B.1.7 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.1.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.1.7_smt",
+                "name": "statement",
+                "prose": "The cybersecurity committee/forum has implemented measures to stay updated on fast-evolving AI security practices and governance landscapes, e.g., participating in AI special interest groups."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.2",
+        "class": "domain",
+        "title": "Policies and procedures",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.2"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.2.3",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.3_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented cross-functional or cross-team communications in areas where AI security intersects with other functional areas in the organisation, due to the multidisciplinary nature of AI."
+              }
+            ]
+          },
+          {
+            "id": "b.2.4",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.4_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and procedures for the secure use of its AI system(s) in the organisation and integrated these policies and procedures with other organisational policies and procedures, e.g., enterprise and/or cybersecurity risk management."
+              }
+            ]
+          },
+          {
+            "id": "b.2.8",
+            "class": "clause",
+            "title": "Policies and procedures – B.2.8 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.2.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.2.8_smt",
+                "name": "statement",
+                "prose": "This includes policies and processes to ensure the secure use of AI system(s) and in accordance to organisational policies, including defining and documenting the processes for the secure use of AI system(s)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.1",
+            "class": "clause",
+            "title": "Risk management – B.3.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.1_smt",
+                "name": "statement",
+                "prose": "The organisation has included AI-specific risks, including: – risk of data leakage arising from both malicious attacks and unintended data disclosure by employees; and – risk of compromise to the integrity of data and/or the AI model, resulting in unintended output from its AI system(s) and has included mechanisms to provide adequate human oversight over the organisation’s AI system(s)."
+              }
+            ]
+          },
+          {
+            "id": "b.3.5",
+            "class": "clause",
+            "title": "Risk management – B.3.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.5_smt",
+                "name": "statement",
+                "prose": "The organisation’s cybersecurity risk assessment for its AI systems has factored in and documented the resources utilised, e.g.: – data assets; – software assets; – systems and computing resources; and – employee use of AI to fully understand the risks and impact."
+              }
+            ]
+          },
+          {
+            "id": "b.3.9",
+            "class": "clause",
+            "title": "Risk management – B.3.9 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.9_smt",
+                "name": "statement",
+                "prose": "Where there are major or significant AI security risks that may not be mitigated, e.g., AI concentration risks, AI over-reliance, the trade-offs and appropriate mitigation measures shall be reported to and approved by the Board and/or senior management."
+              }
+            ]
+          },
+          {
+            "id": "b.3.12",
+            "class": "clause",
+            "title": "Risk management – B.3.12 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.12"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.12_smt",
+                "name": "statement",
+                "prose": "For the organisation implementing AI systems, its policies and processes to review deviations have included ways to monitor for data and model drift that may impact the ability of the model to meet intended outcomes, resulting in changes in AI risk exposure."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.4",
+        "class": "domain",
+        "title": "Cyber strategy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.4"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.4.5",
+            "class": "clause",
+            "title": "Cyber strategy – B.4.5 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.4.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.4.5_smt",
+                "name": "statement",
+                "prose": "The cybersecurity strategy and roadmap has identified and documented the organisation’s objectives to guide the secure use of its AI system(s)."
+              }
+            ]
+          },
+          {
+            "id": "b.4.9",
+            "class": "clause",
+            "title": "Cyber strategy – B.4.9 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.4.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.4.9_smt",
+                "name": "statement",
+                "prose": "The organisation has also factored in the AI threat landscape, as organisations increasingly adopt AI."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.5",
+        "class": "domain",
+        "title": "Compliance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.5"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.5.1",
+            "class": "clause",
+            "title": "Compliance – B.5.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.1_smt",
+                "name": "statement",
+                "prose": "In identifying the relevant laws, regulations and/or guidelines, the organisation has factored in the emerging landscape of AI regulations in the countries it operates in."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.8",
+        "class": "domain",
+        "title": "Asset management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.8"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.8.3",
+            "class": "clause",
+            "title": "Asset management – B.8.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.3_smt",
+                "name": "statement",
+                "prose": "For classification and secure handling and deletion of the organisation’s data used for/in AI, the organisation has included its AI models and any training data used to train the AI models in its policies and procedures."
+              }
+            ]
+          },
+          {
+            "id": "b.8.9",
+            "class": "clause",
+            "title": "Asset management – B.8.9 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.8.9"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.8.9_smt",
+                "name": "statement",
+                "prose": "The organisation’s asset inventory management system has the capability to track and manage AI tools, services and/or systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.9",
+        "class": "domain",
+        "title": "Data protection and privacy",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.9"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.9.5",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.5 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.5_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented classification and handling policies and procedures for employees to identify the data sets in the organisation that could be used in both internal and external AI tools and/or services, e.g. generative AI."
+              }
+            ]
+          },
+          {
+            "id": "b.9.6",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.6_smt",
+                "name": "statement",
+                "prose": "The organisation’s data flow diagram for AI has included documentation of data associated with its AI system(s), e.g.: – data used for training AI system(s) (where relevant); – data input to AI system(s); including prompts, and – data output from AI system(s)."
+              }
+            ]
+          },
+          {
+            "id": "b.9.7",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.7 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.7"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.7_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented secure handling of: – data input to AI systems; – data models (where relevant); and – data output from AI systems. Examples of secure handling of data input to AI systems include measures for: – data integrity; – data provenance; – data validation and/or sanitisation; and – protection on the query interface to detect and mitigate attempts to access, modify and exfiltrate data, e.g. guardrails, rate limiting of queries. Examples of secure handling of AI models include measures for: – verification of models with hashes/ signatures; and – security evaluation of the AI systems before deployment, e.g. benchmarking, security testing, red teaming. Examples of secure handling of data output from AI systems include measures for: – verification of integrity of data output; and – generating output that is usable to users whilst not revealing unnecessary information to potential attackers."
+              }
+            ]
+          },
+          {
+            "id": "b.9.10",
+            "class": "clause",
+            "title": "Data protection and privacy – B.9.10 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.9.10"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.9.10_smt",
+                "name": "statement",
+                "prose": "For sensitive data, the organisation has considered the use of privacy-preserving techniques, e.g., anonymisation, differential privacy (where applicable) for data protection."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.12",
+        "class": "domain",
+        "title": "System security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.12"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.12.4",
+            "class": "clause",
+            "title": "System security – B.12.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.4_smt",
+                "name": "statement",
+                "prose": "As part of secure configuration, the organisation has considered AI model complexity and the appropriateness of the model for the intended use case, as complex models may involve additional software packages or libraries, which expand the attack surface."
+              }
+            ]
+          },
+          {
+            "id": "b.12.8",
+            "class": "clause",
+            "title": "System security – B.12.8 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.12.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.12.8_smt",
+                "name": "statement",
+                "prose": "The organisation’s policies and procedures on secure configuration for AI have incorporated best practices. Examples include: – model hardening, e.g., through adversarial training; – prompt engineering best practices including use of guardrails; – monitoring and limiting the rate of queries to AI systems; or – use of ensembles of models for better resilience against attacks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.13",
+        "class": "domain",
+        "title": "Virus and malware protection",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.13"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.13.8",
+            "class": "clause",
+            "title": "Virus and malware protection – B.13.8 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.13.8"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.13.8_smt",
+                "name": "statement",
+                "prose": "The organisation has established and implemented policies and processes to maintain visibility of AI-specific threats, including adversaries targeting AI, e.g., subscribing to threat intelligence which include AI-specific threats, participation in AI-related special interest groups or equivalent, to receive early warnings and advice regarding new threats and vulnerabilities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.14",
+        "class": "domain",
+        "title": "Secure Software Development Life Cycle (SDLC)",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.14"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.14.3",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.3_smt",
+                "name": "statement",
+                "prose": "These security guidelines and requirements have been established and implemented across the life cycle of the organisation’s AI systems, i.e.: – design; – development; – deployment; and – operations and maintenance."
+              }
+            ]
+          },
+          {
+            "id": "b.14.4",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.4_smt",
+                "name": "statement",
+                "prose": "The organisation has implemented relevant SDLC frameworks for AI, e.g.: – secure design; – secure development; – secure deployment; and – secure operations and maintenance."
+              }
+            ]
+          },
+          {
+            "id": "b.14.6",
+            "class": "clause",
+            "title": "Secure Software Development Life Cycle (SDLC) – B.14.6 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.14.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.14.6_smt",
+                "name": "statement",
+                "prose": "This has included security testing on the organisation's AI system(s), e.g., adversarial testing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.16",
+        "class": "domain",
+        "title": "Cyber threat management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.16"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.16.4",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.4_smt",
+                "name": "statement",
+                "prose": "The log monitoring policy, process and procedure have included: – monitoring inputs to the AI models or AI systems for possible attacks and suspicious activity; and – monitoring AI model or system outputs and performance."
+              }
+            ]
+          },
+          {
+            "id": "b.16.11",
+            "class": "clause",
+            "title": "Cyber threat management – B.16.11 (Advocate)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.16.11"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Advocate",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.16.11_smt",
+                "name": "statement",
+                "prose": "This includes measures such as performing red teaming on the organisation’s AI systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.17",
+        "class": "domain",
+        "title": "Third-party risk and oversight",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.17"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.17.3",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.3_smt",
+                "name": "statement",
+                "prose": "The service level agreement with the organisation’s AI suppliers has incorporated key areas related to AI security. Examples include: – performance metrics of AI services, e.g. availability; – information security requirements, including responsibility of supplier for security; – guardrails and other measures implemented for security; – change management process, e.g., software updates; – logging and monitoring practices; – incident management practices; and – use of the organisation’s data for training of the supplier’s AI models."
+              }
+            ]
+          },
+          {
+            "id": "b.17.4",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.4 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.4_smt",
+                "name": "statement",
+                "prose": "This has included establishing a security shared responsibility model for AI with the organisation’s AI providers, where feasible, to cover: – the security areas for which the organisation is responsible, including its responsibility to meet its customers' expectations and needs; and – the security areas for which its suppliers and/or third-party partners are responsible."
+              }
+            ]
+          },
+          {
+            "id": "b.17.5",
+            "class": "clause",
+            "title": "Third-party risk and oversight – B.17.5 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.17.5"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.17.5_smt",
+                "name": "statement",
+                "prose": "This has included an assessment of the minimum cybersecurity requirements to be met by its third parties based on the risk level of the project – For external model providers: Due diligence evaluation of the provider's own security posture. – For external software libraries, including open source: Due diligence evaluation of the libraries, e.g., AI code checking, vulnerability scanning, or checking against a database with vulnerability information. – For external APIs: Implementation of controls on data that is sent to services outside of the organisation, e.g., requiring users to log in to confirm before sending potentially sensitive information. Where there is use of models or code that is not from trusted sources, the organisation has implemented appropriate controls, e.g. sandboxing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.18",
+        "class": "domain",
+        "title": "Vulnerability assessment",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.18"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.18.4",
+            "class": "clause",
+            "title": "Vulnerability assessment – B.18.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.18.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.18.4_smt",
+                "name": "statement",
+                "prose": "The vulnerability assessment has included the organisation's AI systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.20",
+        "class": "domain",
+        "title": "Network security",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.20"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.20.6",
+            "class": "clause",
+            "title": "Network security – B.20.6 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.20.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.20.6_smt",
+                "name": "statement",
+                "prose": "As part of network segmentation, the organisation has implemented measures to manage the connectivity between its AI systems and other corporate systems, e.g., based on data sensitivity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.21",
+        "class": "domain",
+        "title": "Incident response",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.21"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.21.3",
+            "class": "clause",
+            "title": "Incident response – B.21.3 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.3"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.3_smt",
+                "name": "statement",
+                "prose": "For AI incident management, other functional groups, such as the AI development team, may also be involved."
+              }
+            ]
+          },
+          {
+            "id": "b.21.4",
+            "class": "clause",
+            "title": "Incident response – B.21.4 (Promoter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.4"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Promoter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.4_smt",
+                "name": "statement",
+                "prose": "The organisation has included AI-specific scenarios in these cyber exercises."
+              }
+            ]
+          },
+          {
+            "id": "b.21.6",
+            "class": "clause",
+            "title": "Incident response – B.21.6 (Performer)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.21.6"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Performer",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.21.6_smt",
+                "name": "statement",
+                "prose": "The organisation has integrated its AI-specific incident response with the organisational incident response plan."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

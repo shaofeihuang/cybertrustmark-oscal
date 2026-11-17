@@ -1,0 +1,115 @@
+{
+  "catalog": {
+    "uuid": "b87dd306-77d3-5676-b42b-8e8fb1760abe",
+    "metadata": {
+      "title": "CSA Cyber Trust mark – Supporter tier, AI security requirements (Annex B)",
+      "last-modified": "2026-11-17T00:00:00+08:00",
+      "version": "202504",
+      "oscal-version": "1.1.2",
+      "remarks": "Includes only Supporter-tier clauses. Derived from Annex B (printed pp. 30–111) of the CSA Cybersecurity Certification: Cyber Trust mark document (v202504), using the \"AI security\" column only. Only clauses with a AI-specific statement are included; clauses marked \"#\" in that column (meaning the Classical cybersecurity statement also applies) are omitted and are covered by the classical catalogs. Statements reproduce the source wording.",
+      "links": [
+        {
+          "href": "#49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "rel": "source"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "b.3",
+        "class": "domain",
+        "title": "Risk management",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.3"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.3.1",
+            "class": "clause",
+            "title": "Risk management – B.3.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.3.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.3.1_smt",
+                "name": "statement",
+                "prose": "The organisation has included AI-specific risks, including: – risk of data leakage arising from both malicious attacks and unintended data disclosure by employees; and – risk of compromise to the integrity of data and/or the AI model, resulting in unintended output from its AI system(s) and has included mechanisms to provide adequate human oversight over the organisation’s AI system(s)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b.5",
+        "class": "domain",
+        "title": "Compliance",
+        "props": [
+          {
+            "name": "label",
+            "value": "B.5"
+          }
+        ],
+        "controls": [
+          {
+            "id": "b.5.1",
+            "class": "clause",
+            "title": "Compliance – B.5.1 (Supporter)",
+            "props": [
+              {
+                "name": "label",
+                "value": "B.5.1"
+              },
+              {
+                "name": "preparedness-tier",
+                "value": "Supporter",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              },
+              {
+                "name": "security-context",
+                "value": "AI security",
+                "ns": "https://www.csa.gov.sg/cyber-trust"
+              }
+            ],
+            "parts": [
+              {
+                "id": "b.5.1_smt",
+                "name": "statement",
+                "prose": "In identifying the relevant laws, regulations and/or guidelines, the organisation has factored in the emerging landscape of AI regulations in the countries it operates in."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "49b3f32a-0db7-581c-93ad-6fb3480ea2a3",
+          "title": "CSA Cybersecurity Certification: Cyber Trust mark (v202504)",
+          "rlinks": [
+            {
+              "href": "https://www.csa.gov.sg/cyber-trust"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
